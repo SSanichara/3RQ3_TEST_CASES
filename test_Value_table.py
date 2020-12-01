@@ -38,3 +38,9 @@ def test_view_history():
     history=history_file.read()
     print(history)
     assert history==values_array_test,"this should read the same values from the test file"
+
+def test_Knowvariable():
+    requiredknownvariables=2
+    know=Valuetable()
+    number_of_known=know.Knowvariable(2)
+    assert number_of_known==requiredknownvariables,"The user is required to provide 2 known variables per set"

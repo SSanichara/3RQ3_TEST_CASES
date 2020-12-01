@@ -14,3 +14,6 @@ class Valuetable:
 
     def view_history(self, historyarray):# historyarray will be a string value
         return None
+
+    def Knowvariable(self,knownunits):#knownunits will be the number of known units the user has entered
+        return None
