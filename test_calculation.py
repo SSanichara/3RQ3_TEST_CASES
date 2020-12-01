@@ -42,7 +42,7 @@ def test_IVR_P():
 
 
 def test_RVI_S():
-    # test values to check I=V/R SERIES
+    # test values to check R=V/I SERIES
     # voltage=6
     # current = 2
     resitance = 3
