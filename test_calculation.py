@@ -42,7 +42,8 @@ def test_IVR_P():
 
 
 def test_RVI_S():
-    # voltage=6   #test values to check I=V/R SERIES
+    # test values to check I=V/R SERIES
+    # voltage=6
     # current = 2
     resitance = 3
     values = Calculationfunction()
@@ -51,7 +52,8 @@ def test_RVI_S():
 
 
 def test_RVI_P():
-    # voltage = 6  # test values to check I=V/R
+    # test values to check R=V/I
+    # voltage = 6
     # current = 2
     resitance = 3
     valuep = Calculationfunction()
